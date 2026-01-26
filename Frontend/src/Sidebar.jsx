@@ -1,0 +1,27 @@
+import "./Sidebar.css";
+
+function Sidebar() {
+    return (
+        <section className="sidebar">
+
+            <button>
+                <img src="src/assets/blacklogo.png" alt="Aivora Logo"></img>
+                <i className="fa-solid fa-pen-to-square"></i>
+            </button>
+
+
+            <ul className="history">
+                <li>history1</li>
+                <li>history2</li>
+                <li>history3</li>
+            </ul>
+
+
+            <div className="sign">
+                <p>Made by Karan Saini &hearts;</p>
+            </div>
+        </section>
+    );
+}
+
+export default Sidebar;
