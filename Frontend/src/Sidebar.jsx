@@ -5,15 +5,15 @@ function Sidebar() {
         <section className="sidebar">
 
             <button>
-                <img src="src/assets/blacklogo.png" alt="Aivora Logo"></img>
-                <i className="fa-solid fa-pen-to-square"></i>
+                <img src="src/assets/blacklogo.png" alt="Aivora Logo" className="logo"></img>
+                <span><i className="fa-solid fa-pen-to-square"></i></span>
             </button>
 
 
             <ul className="history">
-                <li>history1</li>
-                <li>history2</li>
-                <li>history3</li>
+                <li>Thread1</li>
+                <li>Thread2</li>
+                <li>Thread3</li>
             </ul>
 
 
