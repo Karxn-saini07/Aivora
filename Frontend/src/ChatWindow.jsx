@@ -19,7 +19,7 @@ function ChatWindow() {
                 <div id="submit"><i class="fa-solid fa-paper-plane"></i></div>
             </div>
             <p className="info">
-            Aivora can make mistakes. Check important info. See Cookie Preferences.
+            {/* Aivora can make mistakes. Check important info. See Cookie Preferences. */}
             </p>
             </div>
         </div>
