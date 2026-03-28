@@ -20,7 +20,7 @@ const MessageSchema = new mongoose.Schema({
 const ThreadSchema = new mongoose.Schema({
   threadId: {
     type: String,
-    // required: true,
+    required: true,
     unique: true
   },
   title: {
