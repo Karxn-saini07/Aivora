@@ -10,7 +10,7 @@ const getGroqResponse = async (message) => {
       messages: [
         {
           role: "user",
-          // content: message
+          content: message
         }
       ],
       model: "llama-3.3-70b-versatile"
