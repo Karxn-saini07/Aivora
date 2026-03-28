@@ -49,7 +49,7 @@ router.get("/thread/:threadId", async (req, res) => {
     }
 });
 
-Delete thread
+// Delete thread
 router.delete("/thread/:threadId", async (req, res) => {
     const { threadId } = req.params;
 
